@@ -1,0 +1,70 @@
+/* импорт шрифтов */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600&display=swap');
+
+/* сброс стилей браузера */
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #e3f2fd;
+}
+
+.container{
+  position: absolute;
+  width: 50%;
+  min-width: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  background: #ffffff;
+  padding: 50px 10px;
+  display: grid;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
+}
+
+h3{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+input[type="text"]{
+  width: 90px;
+  font-weight: 600;
+  color: #663399;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 30px; 
+  border-radius: 5px;
+  border: 2px solid #e3f2fd;
+  font-size: 20px;
+}
+
+button{
+  font-size: 14px;
+  cursor: pointer;
+  color: #fff;
+  background: #5372f0;
+  padding: 11px 20px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  border: 1px solid #6c757d;
+  font-weight: 600;
+  margin-bottom: 30px;
+  outline: none;
+}
+
+p{
+  font-weight: 400;
+}
